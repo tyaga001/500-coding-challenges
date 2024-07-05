@@ -22,6 +22,10 @@ Create an app that uses face detection technology to automatically blur faces in
 - Develop or integrate an AI model for real-time face detection in videos.
 - Implement blurring techniques to anonymize faces.
 
+### Serverless Database Integration
+- Use [Neon.tech](https://neon.tech/) for storing video metadata and user data.
+- Set up a Neon.tech database and connect it to your backend.
+
 ## Features
 
 - User-friendly interface for video uploads and previews.
@@ -33,6 +37,7 @@ Create an app that uses face detection technology to automatically blur faces in
 - [OpenCV Face Detection](https://opencv.org/)
 - [MediaPipe Face Detection](https://mediapipe.dev/)
 - [Flask REST API](https://flask.palletsprojects.com/en/2.0.x/)
+- [Neon.tech Documentation](https://neon.tech/docs/)
 
 ## Example Project Flow
 
@@ -60,8 +65,12 @@ Create an app that uses face detection technology to automatically blur faces in
 1. Use OpenCV or MediaPipe for face detection.
 2. Implement blurring techniques to anonymize faces.
 
+### Neon.tech Integration
+
+1. Create an account on [Neon.tech](https://neon.tech/).
+2. Set up a new database and obtain the connection string.
+3. Integrate Neon.tech with your backend to store video metadata and user data.
+
 ## Additional Challenges
 
-- Optimize face detection for speed and accuracy.
-- Enhance the user interface for better experience.
-- Add support for different video formats.
+- Optimize face detection for speed

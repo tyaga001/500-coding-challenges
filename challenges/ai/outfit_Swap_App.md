@@ -23,6 +23,11 @@ Create an application that uses AI to match users with others who have similar s
 - Use machine learning to match users with similar style preferences.
 - Ensure the model can differentiate between various body types and suggest appropriate swaps.
 
+### Serverless Database Integration
+- Use [Neon.tech](https://neon.tech/) for a serverless database solution.
+- Set up a Neon.tech database and connect it to your backend.
+- Store user profiles, photos, and AI analysis results in Neon.tech.
+
 ## Features
 
 - User authentication and profile management.
@@ -36,6 +41,7 @@ Create an application that uses AI to match users with others who have similar s
 - [Django REST Framework](https://www.django-rest-framework.org/)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [Building a RESTful API with Node.js](https://www.smashingmagazine.com/2020/06/rest-api-node-javascript-mongodb/)
+- [Neon.tech Documentation](https://neon.tech/docs/)
 
 ## Example Project Flow
 
@@ -43,29 +49,4 @@ Create an application that uses AI to match users with others who have similar s
 2. **Photo Upload**: The user uploads photos of their outfits.
 3. **AI Analysis**: The AI model analyzes the photos to identify style elements.
 4. **Matching Algorithm**: The system finds other users with similar styles but different body types.
-5. **Outfit Suggestions**: The user receives suggestions for outfit swaps from matched users.
-
-## Project Setup
-
-### Frontend
-
-1. Create a new React application.
-2. Set up user authentication and profile management.
-3. Implement the UI for uploading photos and viewing matches.
-
-### Backend
-
-1. Set up a new Node.js or Django project.
-2. Create the necessary API endpoints for user management and photo uploads.
-3. Integrate the AI model for style analysis and matching.
-
-### AI Model
-
-1. Choose a pre-trained image classification model or train a custom model for style analysis.
-2. Implement the matching algorithm to find users with similar styles.
-
-## Additional Challenges
-
-- Improve the AI model's accuracy in recognizing different styles.
-- Enhance the matching algorithm to consider additional factors such as color preferences or brand affinities.
-- Implement notifications to alert users of new matches or swap suggestions.
+5. **Outfit Suggestions**: The user receives suggestions for outfit

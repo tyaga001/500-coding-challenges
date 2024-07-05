@@ -14,6 +14,10 @@ Develop a backend for a platform where users can engage in structured debates on
 - Real-time messaging for debates.
 - Voting system for debate winners.
 
+### Serverless Database Integration
+- Use [Neon.tech](https://neon.tech/) for storing user profiles and debate data.
+- Set up a Neon.tech database and connect it to your backend.
+
 ## Features
 
 - User profiles with debate history.
@@ -26,6 +30,7 @@ Develop a backend for a platform where users can engage in structured debates on
 - [Django REST Framework](https://www.django-rest-framework.org/)
 - [Socket.io for WebSockets](https://socket.io/)
 - [Redis for real-time data](https://redis.io/)
+- [Neon.tech Documentation](https://neon.tech/docs/)
 
 ## Example Project Flow
 
@@ -36,13 +41,4 @@ Develop a backend for a platform where users can engage in structured debates on
 
 ## Project Setup
 
-1. Set up a new Django project.
-2. Create the necessary API endpoints for user and debate management.
-3. Implement real-time messaging using Socket.io.
-4. Set up Redis for real-time data handling.
-
-## Additional Challenges
-
-- Enhance user profiles with more details.
-- Implement more complex voting systems.
-- Add notifications for debate updates.
+1. Set up a new Django project
